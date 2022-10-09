@@ -29,7 +29,7 @@ static void ProcessPython()
         results = process.StandardOutput.ReadToEnd();
     }
 
-    Console.WriteLine("ERRORS:");
+    Console.WriteLine("ERRORS :");
     Console.WriteLine(errors);
     Console.WriteLine();
     Console.WriteLine("Results");
